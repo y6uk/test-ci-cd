@@ -3,6 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@hookform/devtools": "^4.4.0",
+    "@hookform/resolvers": "^5.2.2",
+    "@reduxjs/toolkit": "^2.10.1",
+    "leaflet": "^1.9.4",
+    "notistack": "^3.0.2",
     "pdf-lib": "^1.17.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
